@@ -1,0 +1,61 @@
+/* (*) select all */
+*{   
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(221, 188, 202);
+    
+}
+#root h1{
+    font-size: 100px;
+    color: rgb(252, 96, 44);
+    text-shadow: 5px 2px 2px black;
+    text-align: center;
+    padding-bottom: 200px;
+}
+span{
+    color: rgb(36, 35, 16);
+}
+.card{
+   height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+#card-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+li{
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    background-color: rgb(252, 186, 210);
+    text-align: center;
+    color: black;
+}
+
+#fruit-card{
+    background-color: rgb(253, 60, 105);
+    color: rgb(254, 253, 251);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#vegetable-card{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(55, 192, 141);
+}
+#groceries-card{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(47, 140, 245);
+}

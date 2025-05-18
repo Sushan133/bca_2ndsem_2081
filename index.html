@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Class selector(.)*/
+        .box{
+            color: black;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            /*box-shadow: x-y-blur-spreadcolor*/
+            box-shadow: 10px 8px 10px rgb(176, 19, 176);
+            border-radius: 30px;
+            /*border:width type color;*/
+            border: 2px solid teal;
+            margin: 20px;
+            
+        }
+        /*id selector*(#)*/
+        #first-group{      
+            background-color: rgb(39, 237, 188);
+        }
+        #second-group{
+            background-color: rgb(3, 178, 226);
+        }
+    </style>
+</head>
+<body>
+    <!--Block grouping-->
+    <div id="first-group" class="box">
+        <h1>First Block Grouping</h1>
+        </div>
+        <div>
+            <!--Second group-->
+        <div id="second-group" class="box">
+            <h1>Second Block Grouping</h1>
+        </div>
+</body>
+</html>
