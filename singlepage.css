@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    height: 60px;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+}
+.card{
+    height: 1000px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 4px dashed purple;
+    padding: 20px;
+}
+#main{
+    padding-top: 90px;
+}
