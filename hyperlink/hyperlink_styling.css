@@ -1,0 +1,38 @@
+a{
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: wheat;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.8s all ease-in-out;
+}
+/* using pseudo class : link for default state */
+a:link{
+    color: brown;
+
+}
+/* pseudo class : visited */
+a:visited{
+    color: palevioletred;
+}
+/* psedo class : hover */
+a:hover{
+    color: blueviolet;
+    font-size: 20px;
+    border-radius: 20px;
+}
+a:active{
+    color: chocolate;
+    border-radius: 8px;
+    
+}
+#rot{
+    transition: 2s all linear;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+#rot:hover{
+    transform: rotate(360deg);
+}
